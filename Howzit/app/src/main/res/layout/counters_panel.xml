@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/watchersContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:src="@drawable/time"
+            android:scaleType="fitXY"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginRight="3dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/proxima_nova_font"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/txtTimestamp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/likesContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/proxima_nova_font"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/txtReplies"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="@font/proxima_nova_font"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/txtcommen"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/commentsCounterContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/delete"
+            android:visibility="gone"
+            android:src="@drawable/delete"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/commentsCounterContaineredit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/Edit"
+            android:visibility="gone"
+            android:src="@drawable/ic_action_write"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dateContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/flagButton"
+            android:src="@drawable/ic_action_flag"
+            android:background="?android:selectableItemBackground"
+            android:visibility="gone"
+            android:focusable="false"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
