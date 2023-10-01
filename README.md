@@ -49,9 +49,14 @@ Include screenshots or images of your project (if applicable). You can use the f
 
 List the key features of your project.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Registration
+- Login 
+- Sign up
+- vote up/down
+- Upload /take pictures
+- Forgot password
+- Reset password
+  
 
 ## Installation
 
