@@ -1,5 +1,5 @@
 # howzet
-A brief description of your project.
+Location based app inspired by yik yak
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ A brief description of your project.
 
 ## Description
 
-Provide a more detailed description of your project here. Explain what it does, why it exists, and what problems it solves.
+App Allows users to leave and reply to messages based on geo location
 
 ## Demo
 
-If you have a live demo of your project, provide the link here.
+Not yet available
 
 ## Screenshots
 
@@ -60,7 +60,7 @@ List the key features of your project.
 
 ## Installation
 
-Provide instructions on how to install and set up your project. Include any prerequisites or dependencies.
+
 
 ```bash
 # Example installation steps (if applicable)
