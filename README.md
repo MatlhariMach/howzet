@@ -27,7 +27,7 @@ Not yet available
 
 Include screenshots or images of your project (if applicable). You can use the following format:
 
-![Welcome](/Welcome.png)
+![Welcome](/screenshots/Welcome.png)
 ![Signup](/Signup.png)
 ![Login](/Login.png)
 ![Reset](/Reset.png)
