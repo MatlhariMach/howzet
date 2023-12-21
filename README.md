@@ -1,6 +1,5 @@
 # howzet
-Location based app inspired by yik yak    #Android
-
+Location based app inspired by yik yak   
 ## Table of Contents
 
 - [Project Name](#project-name)
