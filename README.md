@@ -1,5 +1,5 @@
 # howzet
-Location based app inspired by yik yak
+Location based app inspired by yik yak    #Android
 
 ## Table of Contents
 
